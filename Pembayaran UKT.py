@@ -34,7 +34,6 @@ def bayar():
     else:
         messagebox.showinfo("Dibatalkan", "Silakan periksa kembali data Anda.")
 
-# 3. Inisialisasi Window Utama
 root = tk.Tk()
 root.title("GUI Pembayaran UKT")
 root.geometry("420x400")
@@ -43,7 +42,6 @@ root.configure(bg="#f7f7f7")
 # 4. Variabel untuk Menyimpan Metode Pembayaran
 metode_pembayaran = tk.StringVar()
 
-# 5. Header Frame dan Label
 frame_header = tk.Frame(root, bg="#f7f7f7")
 frame_header.pack(pady=10)
 
